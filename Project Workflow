@@ -1,0 +1,36 @@
+## Project Workflow
+
+### Step 1: Provision AWS Infrastructure
+- Created an AWS EC2 instance running Windows Server 2025
+- Configured networking and firewall settings
+- Configured storage and remote access
+
+### Step 2: Configure Endpoint Monitoring
+- Installed and configured Elastic Agent
+- Connected the Windows Server endpoint to Elastic SIEM
+- Verified agent health and connectivity
+
+### Step 3: Ingest and Monitor Logs
+Collected and monitored:
+- Login events
+- Processes
+- Applications
+- Security events
+- Network activity
+
+### Step 4: Create Detection Rules
+- Created and tuned detection rules within Elastic SIEM
+- Generated alerts from suspicious activity
+- Investigated and reduced false positives
+
+### Step 5: Automate Incident Triage
+- Sent Elastic alerts to Tines using webhooks
+- Automated alert processing workflows
+- Generated AI-assisted alert summaries
+
+### Step 6: Notify Security Analysts
+- Delivered email notifications containing:
+  - Alert details
+  - AI-generated summary
+  - Relevant context
+  - Recommended next steps for investigation
